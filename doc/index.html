@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Let's Encrypt 101</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Let's Encrypt 101</h1>
+				</section>
+
+				<section>
+					<h2>Hello!</h2>
+
+					<div class="clearfix">
+						<img src="img/logo.svg" width="35%" alt="Icon" class="f_left no-border">
+
+						<ul class="f_right">
+							<li>Web Developer / Designer</li>
+							<li>Cornerstone</li>
+							<li><a href="https://github.com/Nismit" target="_blank">Github@Nismit</a></li>
+							<li><a href="https://play.spotify.com/user/nismit" target="_blank">Spotify</a></li>
+						</ul>
+					</div>
+				</section>
+
+        <section>
+        	<h2>Let's Encryptとは</h2>
+
+					<p>無料で使えるSSL(Secure Sockets Layer) 証明書</p>
+				</section>
+
+				<section>
+					<h2>SSLって何</h2>
+					<p><img src="img/secure.png" width="90%" alt="HTTPS"></p>
+				</section>
+
+				<section>
+					<h2>HTTP/HTTPS</h2>
+
+					<ul>
+						<li>Let's Encryptが出る前まで基本有料</li>
+						<li>シマンテック、グローバルサインなどが有名</li>
+						<li>料金はピンキリ</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>SSL証明レベル</h2>
+
+					<ul>
+						<li>レベル1: DV(Domain Validation) SSL</li>
+						<li>レベル2: OV(Organization Validation)SSL</li>
+						<li>レベル3: EV(Extended Validation)SSL</li>
+					</ul>
+				</section>
+
+				<section>
+						<h2>Let's Encryptの目的</h2>
+
+						<p>より安全なインターネット通信の普及</p>
+				</section>
+
+				<section>
+						<h2>Let's Encrypt 基本方針</h2>
+
+						<ul>
+							<li>無料</li>
+							<li>運用自動化</li>
+							<li>安全性</li>
+							<li>透明性</li>
+						</ul>
+
+						<p>Internet Security Research Group(ISRG)<br>
+						アメリカの公益法人</p>
+				</section>
+
+				<section>
+					<h2>無料の理由</h2>
+
+					<p>スポンサーによる支援や寄付によって運用</p>
+
+					<ul>
+						<li>mozilla</li>
+						<li>akamai</li>
+						<li>cisco</li>
+						<li>facebook etc..</li>
+					</ul>
+
+					<p>認証の自動化などもコスト削減に繋がっている</p>
+				</section>
+
+				<section>
+					<h2>デメリット</h2>
+
+					<ul>
+						<li>レンタルサーバの対応率が低い</li>
+						<li>3ヶ月毎の更新が必要</li>
+						<li>ドメイン認証SSLレベルである</li>
+						<li>トラブルの対処</li>
+					</ul> 	
+				</section>
+
+				<section>
+					<h2>メリット</h2>
+
+					<ul>
+						<li>HTTP2が使える</li>
+						<li>GoogleがSSL対応サイトの優遇</li>
+						<li>サイトの信頼度が増加</li>
+					</ul>	
+				</section>
+
+				<section>
+					<h2>Let's Challenge!</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+.reveal h1, .reveal h2, .reveal h3,
+.reveal h4, .reveal h5, .reveal h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.reveal h1 {
+  font-weight: 700;
+}
+
+.reveal ul li {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.f_left {
+  float: left;
+}
+
+.f_right {
+  float: right;
+}
+
+.no-border {
+  border: 0 !important;
+  box-shadow: none !important;
+}
