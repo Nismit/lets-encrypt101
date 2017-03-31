@@ -9,3 +9,7 @@
 - [Google is fighting with Symantec over encrypting the internet | TechCrunch](https://techcrunch.com/2017/03/27/google-is-fighting-with-symantec-over-encrypting-the-internet/)
 - [Google ChromeでSymantecが発行したSSL証明書の有効期限短縮やEVステータス無効化が提案される | スラド セキュリティ](https://security.srad.jp/story/17/03/26/064241/)
 - [全サーバープランで独自SSLが無料・無制限に利用可能に！「独自SSL」機能の強化のお知らせ - 2016/06/30 | レンタルサーバー【エックスサーバー】](https://www.xserver.ne.jp/news_detail.php?view_id=2767)
+- [Official Google Webmaster Central Blog: HTTPS as a ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html)
+- [Google ウェブマスター向け公式ブログ: HTTPS をランキング シグナルに使用します](https://webmaster-ja.googleblog.com/2014/08/https-as-ranking-signal.html)
+- [GoogleのHTTPSサイト優遇方針で待ったなし！　Webサイト常時SSL化の効果と実装ポイント | 【レポート】Web担当者Forumミーティング 2016 Spring](http://web-tan.forum.impressrd.jp/e/2016/06/22/23090)
+- [[VPS]Let’s Encryptを取得してサイトをHTTPS化にする | EMiAC-Works](http://emiac-works.com/other/memo/lets-encrypt-to-https/)
